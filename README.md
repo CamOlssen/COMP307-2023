@@ -1,2 +1,2 @@
 # COMP307-2023
-Various work done for COMP307 at Victoria Uni.
+Assignments done for COMP307 - Fundamentals of Artifical Intelligence at Victoria University.
