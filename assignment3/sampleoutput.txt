@@ -1,0 +1,60 @@
+Attributes: [age, menopause, tumor-size, inv-nodes, node-caps, deg-malig, breast, breast-quad, irradiat]
+Distinct Labels: [recurrence-events, no-recurrence-events]
+age: [10-19, 20-29, 30-39, 40-49, 50-59, 60-69, 70-79, 80-89, 90-99]
+menopause: [lt40, ge40, premeno]
+tumor-size: [0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59]
+inv-nodes: [0-2, 3-5, 6-8, 9-11, 12-14, 15-17, 18-20, 21-23, 24-26, 27-29, 30-32, 33-35, 36-39]
+node-caps: [yes, no]
+deg-malig: [1, 2, 3]
+breast: [left, right]
+breast-quad: [left_up, left_low, right_up, right_low, central]
+irradiat: [yes, no]
+File read, beginning training.
+
+Training complete, beginning testing
+Performing predictions:
+Instance 1 recurrence-events score:7.096642912782161E-6
+Instance 1 no-recurrence-events score:4.017731924138001E-6
+Final label prediction: recurrence-events | Correct label: no-recurrence-events
+
+Instance 2 recurrence-events score:2.6021024013534593E-5
+Instance 2 no-recurrence-events score:3.3365875538186835E-4
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 3 recurrence-events score:9.715041077797865E-7
+Instance 3 no-recurrence-events score:4.707378797592419E-5
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 4 recurrence-events score:1.0219165794406317E-5
+Instance 4 no-recurrence-events score:1.5163354504655905E-4
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 5 recurrence-events score:1.9205993914751727E-6
+Instance 5 no-recurrence-events score:4.34523614378287E-6
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 6 recurrence-events score:3.880403296274196E-5
+Instance 6 no-recurrence-events score:6.000123072810078E-4
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 7 recurrence-events score:7.415569159796725E-5
+Instance 7 no-recurrence-events score:2.071279390811688E-4
+Final label prediction: no-recurrence-events | Correct label: no-recurrence-events
+
+Instance 8 recurrence-events score:8.934762413310772E-6
+Instance 8 no-recurrence-events score:3.1504865826699285E-4
+Final label prediction: no-recurrence-events | Correct label: recurrence-events
+
+Instance 9 recurrence-events score:6.483884504037111E-5
+Instance 9 no-recurrence-events score:3.9123945169671666E-5
+Final label prediction: recurrence-events | Correct label: recurrence-events
+
+Instance 10 recurrence-events score:5.283165151437645E-5
+Instance 10 no-recurrence-events score:4.1017039290784815E-5
+Final label prediction: recurrence-events | Correct label: recurrence-events
+
+[no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, recurrence-events, recurrence-events, recurrence-events]
+[recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, no-recurrence-events, recurrence-events, recurrence-events]
+Accuracy = 0.8, with 8 of 10 correct predictions.
+
+Process finished with exit code 0
